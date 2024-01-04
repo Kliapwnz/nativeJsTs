@@ -10,10 +10,13 @@ export const CallBack = () => {
     const onNameChanged = () => {
         console.log("name govniame")
     }
-
+const focusLostHandler = () => {
+    console.log("o no, toilet NO!")
+}
     return (
         <div>
-            <textarea onChange={onNameChanged}>KLIApwnz</textarea>
+            <textarea onChange={onNameChanged} onBlur={focusLostHandler}>KLIApwnz</textarea>
+            <input/>
             <button onClick={deleteUser}>delete</button>
             <button onClick={saveUser}>save</button>
         </div>
