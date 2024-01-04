@@ -11,7 +11,7 @@ export const CallBack = () => {
     const focusLostHandler = () => {
         console.log("o no, toilet NO!")
     }
-    const onAgeChanged = (event:ChangeEvent<HTMLInputElement>) => {
+    const onAgeChanged = (event: ChangeEvent<HTMLInputElement>) => {
         console.log("Age?" + event.currentTarget.value)
     }
     return (
