@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {MouseEvent} from 'react';
 
 export const CallBack = () => {
-    const deleteUser = () => {
+    const deleteUser = (event:MouseEvent<HTMLButtonElement>) => {
         alert("delete please bro")
     }
     const saveUser = () => {
