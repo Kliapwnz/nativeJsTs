@@ -7,11 +7,13 @@ export const CallBack = () => {
     const saveUser = () => {
         alert("save please bro")
     }
-
+    const onNameChanged = () => {
+        console.log("name govniame")
+    }
 
     return (
         <div>
-            Hello
+            <textarea onChange={onNameChanged}>KLIApwnz</textarea>
             <button onClick={deleteUser}>delete</button>
             <button onClick={saveUser}>save</button>
         </div>
