@@ -5,9 +5,6 @@ export const CallBack = () => {
 
         alert(event.currentTarget.name)
     }
-    const saveUser = () => {
-        alert("save please bro")
-    }
     const onNameChanged = () => {
         console.log("name govniame")
     }
